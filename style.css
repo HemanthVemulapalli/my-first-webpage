@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.heart {
+    width: 20px;
+}
+.logo{
+    display:flex;
+    gap: 5px;   
+}
+.logo h2 {
+    font-weight: bolder;
+}
+.nav-links{
+    display:flex;
+    gap: 60px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.icon-new{
+    display:flex;
+    align-items: center;
+    gap: 6px;
+}
+.submit-Add{
+    display:flex;
+    align-items:center;
+    gap: 5px;
+
+}
+.add-img{
+    width: 30px;
+    height: 30px;
+
+}
+.res-num{
+    display:flex;
+    align-items: center;
+    gap: 6px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    border-bottom: 2px solid #ececec; 
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.content-image {
+    position: absolute;
+    bottom: 0px;
+}
+
+.content-image img {
+    width: 80%;
+    margin: 0 2rem;
+}
+
+.content-string h1 {
+    /* width: 65%; */
+    font-size: 3.5rem;
+    color: #000;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.content-string p {
+    text-align: center;
+    opacity: 0.6;
+}
+
+.content-string  {
+    margin: 0 auto;
+    line-height: 1.1;
+}
+.share-b{
+    font-weight: 600;
+}
+.logo h2{
+    padding-bottom: 5px;    
+}
+.bg-photo {
+    width: 100vw;
+
+}
+.bg-photo img {
+    object-fit: cover;
+    width: 100%;
+}
+.new-icon{
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #7d5420;
+    padding: 3px 6px;
+    border-radius: 8px;
+    color: #fff;
+}
+.res-stat{
+    font-size: 11px;
+    font-weight: 600;
+    background-color: rgb(145, 141, 141);
+    padding: 3px 6px;
+    border-radius: 8px;
+    color: #fff;
+    
+}   
