@@ -33,6 +33,8 @@ body {
     display:flex;
     align-items:center;
     gap: 5px;
+    cursor: pointer;
+
 
 }
 .add-img{
@@ -71,7 +73,6 @@ body {
 }
 
 .content-string h1 {
-    /* width: 65%; */
     font-size: 3.5rem;
     color: #000;
     opacity: 0.8;
