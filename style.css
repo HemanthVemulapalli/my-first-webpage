@@ -118,4 +118,34 @@ body {
     border-radius: 8px;
     color: #fff;
     
-}   
+}
+
+@media all and (max-width:950px)
+{   
+    body{
+        background-color: beige;
+    }
+    .logo{
+        font-size: 20PX;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links{
+        display:flex;
+        flex-direction: column;
+        gap: 0px;
+        opacity: 0.7;
+        cursor: pointer;
+        align-items: center;
+    }    
+
+    
+}
+    
+
+
+ 
+
+
